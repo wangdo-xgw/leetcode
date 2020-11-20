@@ -3,6 +3,9 @@ package com.aisino.stackQueue;
 import java.util.Deque;
 import java.util.LinkedList;
 
+/**
+ * //设计一个支持 push ，pop ，top 操作，并能在常数时间内检索到最小元素的栈。
+ */
 public class MinStack {
     //Integer的范围  -2147483648 >= int<= 2147483647。
     Deque<Integer> xStack;
