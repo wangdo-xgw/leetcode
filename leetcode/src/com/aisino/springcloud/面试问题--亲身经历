@@ -1,0 +1,50 @@
+========联通安全面试题======
+1.Spring cloud、Spring boot区别？
+                 SpringCloud与SpringBoot区别
+                 1.SpringBoot专注于快速方便的开发单个个体微服务。
+                 2.SpringCloud是关注全局的微服务协调整理治理框架，它将SpringBoot开发的一个个单体微服务整合并且管理起来，为各个服务之间提供，配置管理、服务发现、断路器、路由、微代理、事件总线、全局锁、精选决策、分布式会话等集成服务。
+                 3.SpringBoot可以离开SpringCloud独立开发项目，但是SpringCloud离不开SpringBoot，属于依赖关系。
+                 4.SpringBoot专注于快速、方便的开发单个微服务个体，SpringCloud关注全局的服务治理框架。
+2.老的架构比较熟悉对吧，讲一下spring mvc的流程
+            整个处理过程从一个HTTP请求开始：
+                  1、客户端发起HTTP请求
+                  2、DispatcherServlet接收到请求后，根据对应配置文件中配置的处理器映射，找到对应的处理器映射项（HandlerMapping、HandlerExecutionChain），根据配置的映射规则，找到对应的处理器（Handler）和拦截器
+                  3、调用相应处理器处理器适配器
+                  4、转换消息和数据，执行响应拦截器处理方法
+                  5、调用相应处理器（Handler， 即Controller类）中的处理方法，处理该请求，处理器处理结束后会将一个ModelAndView类型的数据传给DispatcherServlet，这其中包含了处理结果的视图和视图中要使用的数据
+                  6、DispatcherServlet根据得到的ModelAndView中的视图对象，找到一个合适的ViewResolver（视图解析器）
+                  7、根据视图解析器的配置，DispatcherServlet将视图要显示的数据传给对应的视图
+                  8、最后给浏览器构造一个HTTP响应。
+
+3.Java的微服务框架有很多，了解阿里的框架吗？
+  Spring Cloud由众多子项目组成，如Spring Cloud Config、Spring Cloud Netflix、Spring Cloud Consul 等，提供了搭建分布式系统及微服务常用的工具，如配置管理、服务发现、断路器、智能路由、微代理、控制总线、一次性token、全局锁、选主、分布式会话和集群状态等，满足了构建微服务所需的所有解决方案。比如使用Spring Cloud Config 可以实现统一配置中心，对配置进行统一管理；使用Spring Cloud Netflix 可以实现Netflix 组件的功能 - 服务发现（Eureka）、智能路由（Zuul）、客户端负载均衡（Ribbon）。
+
+    kafka 作为消息中间件， 传递消息。
+    Eureka consul 作为服务注册和发现组件，类似zookeeper，但是又不尽相同
+    Ribbon 做负载均衡 其实有点类似Nginx ，
+    Zuul 做网关 其实 就是多个微服务在对外提供服务时 统一口径，减少繁琐的配置成本
+    Feign 其实是类似 HttpClient RestTemplate的升级版 ，其实就是调用外部的一些接口用的
+    Hystrix 做容错 和熔断用的，啥意思呢？其实就是如果微服务提供者比如宕机 ，你就不应该再错误的请求了，反正是不会有结果的，但是对于消费者来说，它并不知道哇，最后导致双方的内存消耗激增，就像 短路时候的保险丝 ，直接烧断两者的联系，其实Hystrix 一般是返回给一个默认值之类的，
+    grpc 是做 rpc 通信的组件 ，这个 只要用过其实大部分都知道
+    zipkin sleuth 是做服务追踪的，其实也是日志追踪，类似 spring 的aop
+    这是 spring cloud 的常用的一些组件，
+
+4.架构的设计，架构的选择，您是主要做一小部分的设计然后整合是还主导这个
+5.picc业务在你的印象中，都经历过哪些变化，你都参与了什么、
+6.什么样的系统需要用微服务
+7.Java的理解和微服务的理解
+8.列举一下最近几个项目是怎么设计的，用的什么框架
+9.会用jdk的新特性吗？
+10.jdk和jre有什么区别？
+11.
+
+=========工银科技面试===============
+1、jvm结构？
+2、哪些条件造成索引失效，为什么会失效，原理是什么？
+3、springboot如何加载，
+4、接口和抽象类的区别，
+5、springmvc实现原理，
+6、JAVA中为什么要单继承，多实现？
+7、mybatis的二级缓存原理
+8、行级锁与表级锁的区别？
+9、什么时候行级锁会升级为表级锁

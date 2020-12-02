@@ -1,0 +1,9 @@
+sparkStreaming和
+flume和kafka搭配sparkStreaming，怎么集成使用？
+项目流程：需求分析  →  数据产生  →  数据采集  →  数据清洗  →  数据统计分析  →  统计结果入库  →  数据可视化
+日志收集框架：flume
+消息队列kafka
+环境：centos6.4 hadoop cdh5.7  开发工具IDEA jdk1.8 scala 2.11.8 spark 2.2.0
+申请一个博客，注册一个github，做两套笔记
+简历上要贴博客，博客有没有东西。github开源的东西有没有贡献，github有没有有内容的东西。对找工作有一定的帮助。
+多尝试，多练习，不做伸手党

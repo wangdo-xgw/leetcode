@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc3e402d-2c43-4bbf-9c4e-9c23cab54272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/aisino/designpattern/factorypattern/说明" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aisino/inspire/激励语" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aisino/kafka/kafka知识点" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aisino/multiThread/多线程知识点" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aisino/spark/sparkStreaming知识点" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aisino/springcloud/springcloud知识点" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aisino/springcloud/面试问题--亲身经历" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aisino/stackQueue/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aisino/stackQueue/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aisino/stackQueue/TwoStackToQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aisino/stackQueue/TwoStackToQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +48,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/aisino/designpattern/factorypattern" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -207,7 +209,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603161272343</updated>
       <workItem from="1603161275340" duration="52283000" />
-      <workItem from="1604898788431" duration="72142000" />
+      <workItem from="1604898788431" duration="77782000" />
+      <workItem from="1606287368721" duration="35430000" />
     </task>
     <task id="LOCAL-00001" summary="vcs.xml和workspace.xml">
       <created>1605142732723</created>
@@ -216,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605142732723</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="vcs.xml和workspace.xml">
+      <created>1605834661712</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605834661712</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,23 +237,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="vcs.xml和workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2311" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603964211718">
+    <state x="2311" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606893422728">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2311" y="341" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1603964211718" />
+    <state x="2311" y="341" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1606893422728" />
     <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1603438440741">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1920.1080@0.0.1600.860" timestamp="1603438440741" />
-    <state x="2160" y="127" key="CommitChangelistDialog2" timestamp="1605142731396">
+    <state x="2160" y="127" key="CommitChangelistDialog2" timestamp="1605834660686">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2160" y="127" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1605142731396" />
-    <state x="2292" y="280" key="FileChooserDialogImpl" timestamp="1605146208273">
+    <state x="2160" y="127" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1605834660686" />
+    <state x="2292" y="280" key="FileChooserDialogImpl" timestamp="1606359392728">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="577" y="223" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1920.1080@0.0.1600.860" timestamp="1603799075423" />
-    <state x="2292" y="280" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1605146208273" />
+    <state x="2292" y="280" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1606359392728" />
     <state width="1876" height="186" key="GridCell.Tab.0.bottom" timestamp="1603961305116">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
@@ -264,18 +274,26 @@
     </state>
     <state width="1538" height="186" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1080@0.0.1600.860" timestamp="1603438472942" />
     <state width="1876" height="186" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1603961305116" />
-    <state x="2152" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605142812059">
+    <state x="2061" y="171" key="SettingsEditor" timestamp="1606892559908">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2152" y="272" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1605142812059" />
+    <state x="2061" y="171" key="SettingsEditor/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1606892559908" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1606893148849">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1606893148849" />
+    <state x="2152" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605834670451">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2152" y="272" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1605834670451" />
     <state x="2167" y="236" width="786" height="608" key="find.popup" timestamp="1605514888480">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2167" y="236" width="786" height="608" key="find.popup/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1605514888480" />
-    <state x="2156" y="227" width="807" height="852" key="search.everywhere.popup" timestamp="1603963897005">
+    <state x="2156" y="227" width="807" height="852" key="search.everywhere.popup" timestamp="1606891723675">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="463" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1920.1080@0.0.1600.860" timestamp="1603266375131" />
-    <state x="2156" y="227" width="807" height="852" key="search.everywhere.popup/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1603963897005" />
+    <state x="2156" y="227" width="807" height="852" key="search.everywhere.popup/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1606891723675" />
   </component>
 </project>
