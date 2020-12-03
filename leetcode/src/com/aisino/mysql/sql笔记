@@ -1,0 +1,32 @@
+mysql语句重点考察的：
+联合查询的join、分页几条的limit和offset、升序降序的desc和asc、排序的order by、group by聚合函数、MAX MIN sum和avg等函数、、
+where连接两个表
+
+1.mysql limit和offset用法
+当 limit和offset组合使用的时候，limit后面只能有一个参数，表示要取的的数量,offset表示要跳过的数量 。
+例如select * from article LIMIT 3 OFFSET 1 表示跳过1条数据,从第2条数据开始取，取3条数据，也就是取2,3,4三条数据
+2.降序desc         升序 asc
+
+3.group by聚合
+https://blog.csdn.net/jerrytomcat/article/details/82351605
+select  name , sum(salary)    from   student    group  by   name , grade      按照名字和等级划分，查看相同名字下的工资总和
+注意：这里有一点需要说明一下，多个字段进行分组时，需要将name和grade看成一个整体，只要是name和grade相同的可以分成一组；如果只是name相同，grade不同就不是一组。
+
+4.纯where连接两个表
+查找在当前时刻(to_date=‘9999-01-01’)，各个部门的经理的薪水详情以及其对应部门编号dept_no
+题目隐含要求：最后输出的emp_no是按照从小到大的顺序排列的
+    方法1：纯where连接两表
+    select salaries.emp_no, salaries.salary, salaries.from_date, salaries.to_date, dept_manager.dept_no
+    from dept_manager, salaries
+    where dept_manager.emp_no=salaries.emp_no
+    and dept_manager.to_date='9999-01-01'
+    and salaries.to_date='9999-01-01'
+    order by salaries.emp_no;
+
+    方法2：用内连接
+    select s., d.dept_no
+    from dept_manager as d inner join salaries as s
+    on d.emp_no=s.emp_no
+    where d.to_date='9999-01-01'
+    and s.to_date='9999-01-01'
+    order by emp_no;
