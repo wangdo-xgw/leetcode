@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc3e402d-2c43-4bbf-9c4e-9c23cab54272" name="Default Changelist" comment="Hadoop环境搭建步骤写上了">
+    <list default="true" id="fc3e402d-2c43-4bbf-9c4e-9c23cab54272" name="Default Changelist" comment="vcs和workspace.xml冲突解决后版本">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aisino/gitNote/git笔记" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aisino/gitNote/git笔记" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aisino/mysql/sql笔记" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aisino/mysql/sql笔记" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605834661712</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="vcs和workspace.xml冲突解决后版本">
+      <created>1606985031601</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606985031601</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +235,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vcs.xml和workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="vcs.xml和workspace.xml" />
+    <MESSAGE value="vcs和workspace.xml冲突解决后版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="vcs和workspace.xml冲突解决后版本" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2311" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606959490680">
@@ -239,10 +247,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="605" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1920.1080@0.0.1600.860" timestamp="1603438440741" />
-    <state x="2160" y="127" key="CommitChangelistDialog2" timestamp="1606985011584">
+    <state x="2160" y="127" key="CommitChangelistDialog2" timestamp="1606985073185">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2160" y="127" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1606985011584" />
+    <state x="2160" y="127" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1606985073185" />
+    <state x="1692" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1606985208534">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1692" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1600.860/1600.0.1920.1080@1600.0.1920.1080" timestamp="1606985208534" />
     <state x="2292" y="280" key="FileChooserDialogImpl" timestamp="1606359392728">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>

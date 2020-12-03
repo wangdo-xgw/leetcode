@@ -30,3 +30,5 @@ select  name , sum(salary)    from   student    group  by   name , grade      �
     where d.to_date='9999-01-01'
     and s.to_date='9999-01-01'
     order by emp_no;
+    补充：inner join中的inner可以省略，甚至inner join整个省略替换成，(逗号)也可以
+    注意：因为salaries表中emp_no是按照升序排列的，所以用salaries做主表就可以省略order by
