@@ -9,3 +9,6 @@
       git add .
       git commit -m 'add .gitignore'
       git push
+
+二、idea+git合并分支解决冲突及详解步骤
+https://blog.csdn.net/su1573/article/details/91990437
