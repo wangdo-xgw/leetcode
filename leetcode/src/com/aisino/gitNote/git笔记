@@ -1,14 +1,11 @@
 一、git忽略.idea/ workspace.xml
+      1、先清除.idea的git缓存
+      git rm -r --cached .idea
 
-        1、关于忽略文件的配置。
-        git rm -r --cached .
-        git add .
-        git commit -m 'update .gitignore'
+      2、添加.gitignore文件，内容如下：
+      .idea/*
 
-        2、关于忽略文件的路径。
-        git config --global core.excludesfile ~/.gitignore，
-        路径中有斜杠注意一下。
-
-        3、路径中有多级文件夹。
-        **/bin/*.xml
-        PS: 设置全局忽略配置后立即生效, 单个项目忽略需要提交后生效.
+      3、终端执行如下命令：
+      git add .
+      git commit -m 'add .gitignore'
+      git push
